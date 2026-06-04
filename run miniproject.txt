@@ -1,0 +1,24 @@
+PS C:\Users\Mihir> cd '.\Documents\VSC\Diabetic neuropathy\'
+PS C:\Users\Mihir\Documents\VSC\Diabetic neuropathy> ls
+
+
+    Directory: C:\Users\Mihir\Documents\VSC\Diabetic neuropathy
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         4/27/2026   8:23 PM                .venv
+d-----         4/27/2026   7:51 PM                app
+d-----         4/27/2026   8:27 PM                dataset
+d-----         4/27/2026   8:29 PM                model
+d-----         4/27/2026   8:33 PM                utils
+-a----         4/28/2026   1:36 PM           4157 generate_dummy_dataset.py
+-a----         4/28/2026   1:36 PM           1172 predict.py
+-a----         4/28/2026   1:36 PM           1944 README.md
+-a----         4/28/2026   1:36 PM             80 requirements.txt
+-a----         4/28/2026  12:42 AM           4067 run miniproject.txt
+-a----         4/28/2026   1:36 PM           2327 train.py
+
+
+PS C:\Users\Mihir\Documents\VSC\Diabetic neuropathy> .\.venv\Scripts\Activate.ps1
+(.venv) PS C:\Users\Mihir\Documents\VSC\Diabetic neuropathy> streamlit run app/streamlit_app.py
