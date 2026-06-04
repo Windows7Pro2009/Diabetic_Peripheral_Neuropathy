@@ -1,0 +1,6 @@
+# Ignore a specific folder and everything inside it
+.venv/
+
+
+# Ignore a specific file by name
+
